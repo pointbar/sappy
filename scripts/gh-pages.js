@@ -1,13 +1,13 @@
-var ghpages = require('gh-pages');
+const ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/sappy',// <-- replace yourproject with your repo name
+    '__sapper__/export',
     {
-        branch: 'gh-pages',
-        repo: 'https://github.com/pntbr/sappy.git',
+        branch: 'master',
+        repo: 'sappy.git',
         user: {
             name: 'pntbr',
-            email: 'stephane.langlois@scopyleft.fr'
+            email: 'pntbr@pm.me'
         }
     },
     () => {
