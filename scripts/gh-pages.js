@@ -6,7 +6,7 @@ ghpages.publish(
         branch: 'master',
         repo: 'sappy.git',
         user: {
-            name: 'pntbr',
+            name: 'pointbar',
             email: 'pntbr@pm.me'
         }
     },
